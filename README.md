@@ -16,10 +16,10 @@ Design an AI-driven talent strategy agent that:
 
 ·       Incorporates risk mitigation features, including:
 
-o   Bias detection and fairness checks in role recommendations.
+·       Bias detection and fairness checks in role recommendations.
 
-o   Explainable AI for why a role or learning path was suggested.
+·       Explainable AI for why a role or learning path was suggested.
 
-o   Data privacy safeguards for sensitive HR information.
+·       Data privacy safeguards for sensitive HR information.
 
 The solution should balance accuracy, fairness, and transparency, while considering scalability for large organizations.
