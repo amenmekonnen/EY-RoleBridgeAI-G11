@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RoleBridge AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>RoleBridge AI</h1>
+    <p>Bridging Current Skills to Future Roles</p>
+</header>
+
+<section>
+
+<h2>Select Employee Profile</h2>
+<select id="profileSelect"></select>
+
+<h2>Employee Profile</h2>
+<div class="card">
+    <strong>Name:</strong> <span id="name"></span>
+    <ul id="skills"></ul>
+</div>
+
+<h2>Role Recommendation</h2>
+<div class="card">
+    <strong id="role"></strong>
+    <p>Match Score: <span id="match"></span>%</p>
+    <div class="progress">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+</div>
+
+<h2>Why This Role?</h2>
+<div class="card">
+    <ul>
+        <li>Strong alignment with current skill set</li>
+        <li>Transferable experience supports role responsibilities</li>
+        <li>Skill gaps are achievable within 6 months</li>
+    </ul>
+</div>
+
+<h2>Skill Gaps</h2>
+<div class="card">
+    <ul id="gaps"></ul>
+</div>
+
+<h2>Upskilling Plan</h2>
+<div class="card">
+    <ul id="upskill"></ul>
+</div>
+
+<h2>Alternative Roles</h2>
+<div class="card">
+    <ul id="alternatives"></ul>
+</div>
+
+<h2>How RoleBridge Works</h2>
+<div class="card">
+    <ol>
+        <li>Skills extracted from employee profiles</li>
+        <li>Compared against role requirements</li>
+        <li>Skill gaps identified and prioritized</li>
+        <li>Personalized learning paths generated</li>
+    </ol>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
